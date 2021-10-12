@@ -7,10 +7,10 @@ var DAYS = [
     'Thursday',
     'Friday',
     'Saturday'];
-var newdate = new Date('Next Day')
+var newdate = new Date()
 newdate = newdate.getTime(); 
 
-var date = prompt();
+var date = prompt('Next Day');
 
 var nextday = date*(1000*60*60*24);
 
